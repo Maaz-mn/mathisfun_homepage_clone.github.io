@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./Picture/pexels-neosiam-+-633520.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: linear-gradient(rgb(252, 75, 75),rgb(245, 245, 15)); */
+    /* background-color: rgba(122, 112, 112, 0.175); */
+}
+.container{
+   border: 2px solid rgba(32, 115, 142, 0.674);
+   border-radius: 40px;
+    height: 70vh;
+    width:80vh;
+    margin: auto;
+    /* display: flex; */
+    margin-top: 100px;
+}
+.box1{
+    border:1px solid rgba(198, 189, 189, 0.482);
+    /* background-color: rgba(188, 188, 188, 0.567); */
+    border-radius: 20px;
+    height: 80px;
+    width: 25%; 
+    display: flex;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 20px;
+    box-shadow: 5px 2px 5px rgba(184, 178, 178, 0.826);
+}
+.pic1{
+    position: relative;
+    right: 80px;
+}
