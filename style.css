@@ -9,7 +9,9 @@ body{
     /* background-image: linear-gradient(rgb(2, 48, 71),rgb(3, 29, 68)); */
     background-color:rgb(7, 37, 91);
 }
-
+.title_img{
+    filter: opacity(0.8);
+}
 .container{
     backdrop-filter: blur(15px);
     background: rgba(9, 121, 208, 0.2);
